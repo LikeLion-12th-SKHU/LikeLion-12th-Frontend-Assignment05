@@ -1,0 +1,33 @@
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-input {
+  font-size: 16px;
+  margin: 14px;
+  padding: 7px;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgb(232, 88, 222);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: rgb(193, 69, 185);
+}
+
+.counter-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.counter-food {
+  cursor: pointer;
+}
