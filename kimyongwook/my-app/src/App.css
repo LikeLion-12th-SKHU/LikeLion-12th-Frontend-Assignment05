@@ -1,0 +1,35 @@
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #cb39c4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: #cb39c4;
+}
+
+.input {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  border-color: beige;
+  margin-right: 20px;
+}
+
+.delete-button {
+  margin-left: 20px;
+}
