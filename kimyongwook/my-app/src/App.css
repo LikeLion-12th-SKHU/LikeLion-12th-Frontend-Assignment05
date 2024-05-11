@@ -33,3 +33,7 @@
 .delete-button {
   margin-left: 20px;
 }
+
+.input-list {
+  list-style-type: none;
+}
