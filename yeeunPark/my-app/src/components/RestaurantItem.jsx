@@ -1,11 +1,19 @@
+//RestaurantItem.jsx
+
 import React from "react";
 
-function RestaurantItem({ restaurant, onClick }) {
+function RestaurantItem({
+  restaurant,
+  onClick,
+  itemClassName,
+  buttonClassName,
+  liClassName,
+}) {
   return (
-    <div className='restaurant-item'>
-      <li className='restaurant-li'>{restaurant}</li>
+    <div className={itemClassName}>
+      <li className={liClassName}>{restaurant}</li>
       <button
-        className='restaurant-remove-button'
+        className={buttonClassName}
         onClick={onClick}>
         -
       </button>

@@ -1,3 +1,5 @@
+//index.jsx
+
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./App.css";
@@ -52,6 +54,10 @@ function RestaurantList() {
             key={index}
             restaurant={restaurant}
             onClick={() => handleRemoveRestaurant(index)}
+            itemClassName='restaurant-item'
+            buttonClassName='restaurant-remove-button'
+            liClassName='restaurant-li'
+            // 외부에서 클래스 이름 전달
           />
         ))}
       </ul>
