@@ -1,0 +1,44 @@
+.input-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: #0056b3;
+}
+
+.input {
+  height: 35px;
+  width: 180px;
+  margin-right: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.button {
+  height: 40px;
+  background-color: rgb(239, 84, 174);
+  color: white;
+  width: 50px;
+  border-radius: 15%;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+}
