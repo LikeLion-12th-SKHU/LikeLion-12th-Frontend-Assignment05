@@ -1,0 +1,28 @@
+.food-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.food-text {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.food-add {
+
+}
+
+.food-input {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.food-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
