@@ -1,0 +1,48 @@
+.text-input-list {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.text-input-list input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border: solid 1px rgb(94, 94, 94);
+  border-radius: 5px;
+}
+
+.text-input-list button {
+  padding: 12px 17px;
+  margin: 10px;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  background-color: rgb(255, 151, 92);
+  cursor: pointer;
+}
+
+.text-input-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.text-input-list li {
+  justify-content: space-between;
+  margin: 0 300px;
+}
+
+.text-input-list li button {
+  font-size: 10px;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 20%;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  margin-left: 10px;
+}
+
+.List {
+  text-align: center;
+  padding: 50px;
+}
